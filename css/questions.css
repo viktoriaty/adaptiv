@@ -1,0 +1,131 @@
+.questions {
+  padding: 70px 0;
+
+  text-align: center;
+  background-image: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url(../images/original_598199574f1350638e11b2d2_5982c05803796.jpg);
+  color: #FFFFFF;
+}
+
+.questions__title {
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 17px;
+}
+
+.questions__text {
+  font-weight: 500;
+  font-size: 22px;
+  padding-bottom: 50px;
+  opacity: 0.8;
+
+}
+
+.questions__form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+  
+  padding-bottom: 50px;
+}
+
+.questions__input {
+  width: 423px;
+  height: 44px;
+  font-weight: 400;
+  font-size: 22px;
+  border: 1.38px solid #000000;
+  border-radius: 50px;
+  /*padding: 9px 296px 9px 25px;*/
+  padding-left: 9px;
+  opacity: 0.5;
+}
+
+.questions__agreement {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.agreement__link {
+  color: #4A76A8;
+}
+
+.questions__btn {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .questions {
+    padding-bottom: 56px;
+  }
+
+  .questions__title {
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+  
+  .questions__text {
+    font-size: 20px;
+  }
+
+  .questions__input {
+    width: 377px;
+    height: 39px;
+    font-size: 20px;
+    padding-left: 8px;
+
+  }
+
+  .questions__form {
+    gap: 20px;
+  }
+
+  .questions__btn {
+    margin-bottom: 30px;
+  }
+
+  .questions__agreement {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+  .questions {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .questions__title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .questions__text {
+    font-size: 12px;
+    padding-bottom: 35px;
+  }
+
+  .questions__input {
+    padding-left: 6px;
+    width: 290px;
+    height: 28px;
+    font-size: 14px;
+   
+
+  }
+
+  .questions__form {
+    gap: 15px;
+    padding-bottom: 45px;
+  }
+
+  .questions__btn {
+    margin-bottom: 30px;
+  }
+
+  .questions__agreement {
+    font-size: 11px;
+    padding-bottom: 30px;
+  }
+}

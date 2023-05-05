@@ -1,0 +1,114 @@
+@import url("header.css");
+@import url("proposal.css");
+@import url("advantages.css");
+@import url("questions.css");
+@import url("footer.css");
+
+html {
+  position: relative;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Roboto, sans-serif;
+
+  
+}
+
+img, svg {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+a {  
+  color: inherit;
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0 12.5%;
+  margin: 0 auto;
+  
+}
+
+
+
+
+
+
+
+.btn {
+  font-weight: 500;
+  font-size: 20px;
+  width: 200px;
+  height: 48px;
+  background-color: #15A9CB;
+  box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    padding: 0 15px;
+  }
+  
+.btn {
+  
+  font-size: 16px;
+  width: 174px;
+  height: 38px;
+
+}
+}
+
+
+
