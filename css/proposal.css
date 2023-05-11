@@ -7,6 +7,7 @@
 .proposal__title {
   font-weight: 900;
   font-size: 52px;
+  line-height: 61px;
   padding-bottom: 35px;
   opacity: 0.86;
   
@@ -15,6 +16,7 @@
 .proposal__text  {
   font-weight: 400;
   font-size: 22px;
+  line-height: 31px;
   padding-bottom: 90px;
   opacity: 0.75;
 }
@@ -26,10 +28,12 @@
 
   .proposal__title {
     font-size: 40px;
+    line-height: 47px;
   }
 
   .proposal__text {
     font-size: 18px;
+    line-height: 25px;
     padding-bottom: 60.43px;
   }
 }
@@ -41,11 +45,13 @@
 
   .proposal__title {
     font-size: 20px;
+    line-height: 23px;
     padding-bottom: 23px;
   }
 
   .proposal__text {
     font-size: 14px;
-    padding-bottom: 54px;
+    line-height: 20px;
+    padding-bottom: 54 px;
   }
 }

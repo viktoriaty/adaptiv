@@ -80,9 +80,11 @@ fieldset {
 .btn {
   font-weight: 500;
   font-size: 20px;
+  line-height: 23px;
   width: 200px;
   height: 48px;
   background-color: #15A9CB;
+  border: none;
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
   color: #FFFFFF;
@@ -105,6 +107,7 @@ fieldset {
   
   font-size: 16px;
   width: 174px;
+  line-height: 19px;
   height: 38px;
 
 }
