@@ -6,6 +6,7 @@
 
 .footer__container {
   display: flex;
+  
 }
 
 .footer__logo {
@@ -15,7 +16,7 @@
 }
 
 .footer__list {
-  width: 986px;
+  width: 1113px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
