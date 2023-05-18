@@ -19,7 +19,7 @@
   width: 1113px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  
   align-items: center;
 }
 
@@ -29,12 +29,19 @@
   font-weight: 500;
   font-size: 12px;
 }
+.contact {
+  font-weight: 400;
+}
 
 .production__second {
   display: none;
 }
 
 @media (max-width: 1024px) {
+  .footer {
+    padding: 38px 0;
+  }
+
   .production {
     opacity: 0.5;
   }

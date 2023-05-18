@@ -103,23 +103,24 @@ fieldset {
 
 .container {
   max-width: 1600px;
-  padding: 0 12.5%;
+  padding: 0 12.2%;
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+
 
 
 .btn {
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  width: 200px;
-  height: 48px;
   background-color: #15A9CB;
   border: none;
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
   color: #FFFFFF;
+ 
 }
 
 @media (max-width: 1024px) {
@@ -127,12 +128,15 @@ fieldset {
     max-width: 1024px;
     padding: 0 30px;
   }
+  .background__foto {
+    background-size: 1024px 528px;
+  }
 }
 
 @media (max-width: 500px) {
   .container {
     max-width: 500px;
-    padding: 0 15px;
+    padding: 0 3%;
   }
   
 .btn {
